@@ -62,7 +62,7 @@
 .customization-blue{
     display: flex;
     align-items: center;
-    height: 115px;
+    height: 116px;
     border-bottom: 5px solid #0C7CEC;
     padding-top: 5px;
 }

@@ -3,7 +3,7 @@
     <!-- header -->
     <HeaderComp1/>
     <!-- main -->
-    <MainComp1/>
+    <MainComp/>
     <!-- footer -->
     <FooterComp1/>
     <FooterComp2/>
@@ -12,15 +12,17 @@
 </template>
 
 <script>
-import HeaderComp1 from '../components/Header/HeaderComp1.vue'
-import MainComp1 from './components/Main/MainComp1.vue'
-import FooterComp1 from '../components/Footer/FooterComp1.vue'
-import FooterComp2 from "../components/Footer/FooterComp2.vue";
+import HeaderComp1 from '.src/components/Header/HeaderComp1.vue'
+import MainComp from './components/Main/MainComp.vue'
+import FooterComp1 from '.src/components/Footer/FooterComp1.vue'
+import FooterComp2 from ".src/components/Footer/FooterComp2.vue";
+
+
 export default {
   name: 'App',
   components: {
     HeaderComp1,
-    MainComp1,
+    MainComp,
     FooterComp1,
     FooterComp2,
     

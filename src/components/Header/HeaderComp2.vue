@@ -2,7 +2,6 @@
   <div class="bg-black">
       <div class="box flex">
           <BackgImage/>
-           
       </div>
       <div class="flex">
           <CardsComp v-for="(element,index) in products" :key="index" :cards="element" />
@@ -137,6 +136,5 @@ button{
   margin:50px 0px;
   width: 10%;
   padding:15px;
- 
 }
 </style>

@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <!-- header -->
-    <HeaderComp1/>
+    <HeaderComp1 />
     <!-- main -->
-    <MainComp/>
+    <MainComp />
     <!-- footer -->
-    <FooterComp1/>
-    <FooterComp2/>
+    <FooterComp1 />
+    <FooterComp2 />
     
   </div>
 </template>
 
 <script>
-import HeaderComp1 from '.src/components/Header/HeaderComp1.vue'
-import MainComp from './components/Main/MainComp.vue'
-import FooterComp1 from '.src/components/Footer/FooterComp1.vue'
+import HeaderComp1 from '.src/components/Header/HeaderComp1.vue';
+import MainComp from './components/Main/MainComp.vue';
+import FooterComp1 from '.src/components/Footer/FooterComp1.vue';
 import FooterComp2 from ".src/components/Footer/FooterComp2.vue";
 
 

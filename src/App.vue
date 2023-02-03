@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import HeaderComp1 from '.src/components/Header/HeaderComp1.vue';
+import HeaderComp1 from './components/Header/HeaderComp1.vue';
 import MainComp from './components/Main/MainComp.vue';
-import FooterComp1 from '.src/components/Footer/FooterComp1.vue';
-import FooterComp2 from ".src/components/Footer/FooterComp2.vue";
+import FooterComp1 from './components/Footer/FooterComp1.vue';
+import FooterComp2 from "./components/Footer/FooterComp2.vue";
 
 
 export default {
